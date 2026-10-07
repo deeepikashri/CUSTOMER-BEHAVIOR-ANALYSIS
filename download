@@ -1,0 +1,25 @@
+# Raw dataset (add your own copy locally; remove this line if you have the
+# rights to redistribute it and want it in the repo)
+data/*.csv
+!data/.gitkeep
+
+# Credentials / environment
+.env
+*.env
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Power BI temp files
+*.pbi*.tmp
+.pbi/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
